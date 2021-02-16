@@ -13,6 +13,7 @@
     "express-session": "^1.17.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "url-loader": "^4.1.1",
     "web-vitals": "^1.1.0"
@@ -22,10 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://samuel-chlam.github.io/newsite",
+  "homepage": "https://samuel-chlam.github.io/newsite/",
   "eslintConfig": {
     "extends": [
       "react-app",

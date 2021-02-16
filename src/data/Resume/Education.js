@@ -25,11 +25,10 @@ const EducationList = [
         key: "Imperial",
         image: imperialLogo,
         title: "Imperial College London",
-        titledes: "MSCi Mathematics with a Year Abroad",
+        titledes: "MSci Mathematics with a Year Abroad",
         titleright: "October 2018 - Present",
         content: (<> 
             <ul className="u-nomargin"> 
-                <li> Concentration: Dynamical Systems, Stochastic Analysis, Statistical Learning </li>
                 <li> Year 1 Results: First honor with Dean's List </li>
                 <li> Year 2 Results: First honor with Dean's List </li>
             </ul>

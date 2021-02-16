@@ -61,8 +61,8 @@ class App extends Component {
         <NavBar /> {/* handleLogin={this.handleLogin}
               handleLogout={this.handleLogout}
               userId={this.state.userId} */}
-          <Router>
-            <Home path="/newsite" />
+          <Router basepath="/newsite">
+            <Home path="/" />
             <Teaching path="/teaching" />
             <MyStory path="/mystory" />
             <Achieve path="/cv" />
