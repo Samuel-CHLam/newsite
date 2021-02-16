@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/newsite/static/css/main.9312561c.chunk.css",
-    "main.js": "/newsite/static/js/main.b9d69695.chunk.js",
-    "main.js.map": "/newsite/static/js/main.b9d69695.chunk.js.map",
+    "main.js": "/newsite/static/js/main.9b31ae73.chunk.js",
+    "main.js.map": "/newsite/static/js/main.9b31ae73.chunk.js.map",
     "runtime-main.js": "/newsite/static/js/runtime-main.251dd7e6.js",
     "runtime-main.js.map": "/newsite/static/js/runtime-main.251dd7e6.js.map",
     "static/js/2.6a509b5b.chunk.js": "/newsite/static/js/2.6a509b5b.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/18_338_Final_Project.51312928.pdf": "/newsite/static/media/18_338_Final_Project.51312928.pdf",
     "static/media/18_338_Presentation.4884332b.pdf": "/newsite/static/media/18_338_Presentation.4884332b.pdf",
     "static/media/18_353_Pilot_Wave_System.0c290dae.pdf": "/newsite/static/media/18_353_Pilot_Wave_System.0c290dae.pdf",
-    "static/media/CV_2021_Jan_V3.4fe83014.pdf": "/newsite/static/media/CV_2021_Jan_V3.4fe83014.pdf",
+    "static/media/CV_2021_V5.c3be4bae.pdf": "/newsite/static/media/CV_2021_V5.c3be4bae.pdf",
     "static/media/Diffusion_Comparison.f45e5ad5.png": "/newsite/static/media/Diffusion_Comparison.f45e5ad5.png",
     "static/media/ECABanner.915997e1.png": "/newsite/static/media/ECABanner.915997e1.png",
     "static/media/Empirical.a219008b.pdf": "/newsite/static/media/Empirical.a219008b.pdf",
@@ -59,6 +59,6 @@
     "static/js/runtime-main.251dd7e6.js",
     "static/js/2.6a509b5b.chunk.js",
     "static/css/main.9312561c.chunk.css",
-    "static/js/main.b9d69695.chunk.js"
+    "static/js/main.9b31ae73.chunk.js"
   ]
 }
