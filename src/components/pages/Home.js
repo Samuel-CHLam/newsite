@@ -36,14 +36,15 @@ class Home extends Component {
         <div className="u-block"> 
         <MyAlert 
             alerttype="green"
-            content={(<div> I am currently running for Webmaster positions in the Imperial College MathSoc and Imperial College
-              Rail and Transport Society. Please vote for me. (Link to be updated.)
+            content={(<div> I am now elected as the Webmaster for <a href="https://www.union.ic.ac.uk/rcsu/mathsoc/">Imperial College Mathematics 
+            Society (MathSoc)</a> and <a href="https://union.ic.ac.uk/scc/railway/home">Imperial College Rail and Transport Society (ICRTS)</a>. Proposed 
+            design of respective websites will be posted here in due course.
             </div>)}
           />
         <MyAlert 
             alerttype="red"
             content={(<div> This webpage is currently under development. A list of known issues are included in the <a href="https://github.com/Samuel-CHLam/newsite">
-              Github page </a> for this webpage. </div>)}
+              Github page</a> for this webpage. </div>)}
           />
         </div>
         <div className="u-block">
