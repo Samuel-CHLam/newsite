@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Router } from "@reach/router";
+import {HashRouter as Router, Redirect, Route, Switch} from "react-router-dom";
+import {connect} from "react-router-dom";
+// import { Router } from "@reach/router";
 import NavBar from "./modules/NavBar.js";
 import Header from "./modules/Header.js"
 import BottomBanner from "./modules/BottomBanner.js";
@@ -56,12 +58,13 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <Router>
         <Header />
-        <NavBar /> {/* handleLogin={this.handleLogin}
+        <NavBar /> 
+        {/* handleLogin={this.handleLogin}
               handleLogout={this.handleLogout}
               userId={this.state.userId} */}
-          <Router basepath="/newsite">
+          {/* <Router basepath="">
             <Home path="/" />
             <Teaching path="/teaching" />
             <MyStory path="/mystory" />
@@ -72,9 +75,22 @@ class App extends Component {
             <ECA path="/eca" />
             <Privacy path="/privacy" />
             <NotFound default />
-          </Router>
+          </Router> */}
+          <div>
+          <Switch>
+            <Route exact path ="/" component={Home} />
+            <Route exact path = "/teaching" component = {Teaching} />
+            <Route exact path = "/cv" component = {Achieve} />
+            <Route exact path = "/research" component = {Research} />
+            <Route exact path = "/publication" component = {Publication} />
+            <Route exact path = "/christian" component = {Christian} />
+            <Route exact path = "/eca" component = {ECA} />
+            <Route exact path = "/privacy" component = {Privacy} />
+            {/* <Route exact path = "/christian" component = {NotFound} /> */}
+          </Switch>
+          </div>
         <BottomBanner />
-      </>
+      </Router>
     );
   }
 }

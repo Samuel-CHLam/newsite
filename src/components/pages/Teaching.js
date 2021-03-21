@@ -30,18 +30,6 @@ class Teaching extends Component {
           for Department of Mathematics at Imperial College London."
         />  
       <div className="u-block">
-        <MyAlert 
-          alerttype="green"
-          content="I will host a drop in session on 10/12 in Microsoft Teams. 
-          Come and join us!"
-        />
-        <MyAlert 
-          alerttype="red"
-          content="The 15/02 session for spring term tutorial will need to be rescheduled
-          due to conflict with midterm tests."
-        />
-      </div>
-      <div className="u-block">
         <h2> Current Teaching </h2>
       </div>
       <div className="u-block">
@@ -51,16 +39,15 @@ class Teaching extends Component {
             <p className="u-nomargin"> Tentative Schedule: (Participants are more than welcomed to
             suggest their topics.) </p>
             <ul className="u-nomargin">
-            <li> (22/01)* Linear Algebra: Introduction to linear algebra using Numpy. </li>
+            <li> (22/01)* Linear Algebra: Introduction to linear algebra using Numpy in Python. </li>
             <li> (25/01) Linear Algebra: QR Factorisation I </li>
             <li> (01/02) Linear Algebra: QR Factorisation II </li>
             <li> (08/02) Analysis: Monotone Functions </li>
             <li> (15/02)* Midterm Preparation </li>
             <li> (22/02) Statistics: Least Square Estimation </li>
-            <li> (01/03) Analysis: Fixed Point Theorems </li>
-            <li> (08/03) Calculus: Bifurcation in practice </li>
-            <li> (15/03) Group Theory: Special Groups </li>
-            <li> (22/03) Sendoff </li>
+            <li> (01/03) Linear Algebra: Introduction to Jordan Canonical Form </li>
+            <li> (08/03) Statistics: Introduction to R, and Calculus: Case studies for bifurcation problems. </li>
+            <li> (15/03) Sendoff </li>
             </ul>
       </div>
       <div className="u-block">

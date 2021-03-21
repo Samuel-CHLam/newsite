@@ -35,8 +35,15 @@ class Home extends Component {
         />
         <div className="u-block"> 
         <MyAlert 
+            alerttype="green"
+            content={(<div> I am currently running for Webmaster positions in the Imperial College MathSoc and Imperial College
+              Rail and Transport Society. Please vote for me. (Link to be updated.)
+            </div>)}
+          />
+        <MyAlert 
             alerttype="red"
-            content="This webpage is currently in alpha, and is NOT compatible for mobile display."
+            content={(<div> This webpage is currently under development. A list of known issues are included in the <a href="https://github.com/Samuel-CHLam/newsite">
+              Github page </a> for this webpage. </div>)}
           />
         </div>
         <div className="u-block">

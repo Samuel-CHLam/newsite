@@ -24,7 +24,7 @@ const Year23 = [
             which doesn't have much CSS styling. A better-looking website would be the one you are looking at now, 
             even though it is not built in full MERN stack.
             </p>),
-        remark: "This is a course in IAP."
+        remark: "This is a course in the MIT's Independent Activities Program (IAP)."
     },
     {
         key: "music",
@@ -33,10 +33,10 @@ const Year23 = [
         titledes: "Piano, Music Arrangement, Sound Design",
         titleright: "Year 3",
         content: (<p className="u-nomargin"> 
-            I will probably take a music course in the spring term. 
-            I may also join musical theatre performances. 
+            I am currently a pianist in MIT Musical Theatre Guilds. I am also taking 21M.301 Harmony and Counterpoints I in the
+            MIT music department.
             </p>),
-        remark: "Nothing can be sure since I don't have a keyboard at home..."
+        remark: "MIT actually sends me a keyboard!"
     },
     {
         key: "cycle",
@@ -62,6 +62,18 @@ const Year23 = [
             developed -- stay tuned!</b>
             </p>),
         remark: ""
+    },
+    {
+        key: "Trainspotting",
+        // image: "",
+        title: "Train Spotting",
+        titledes: "",
+        titleright: "Year 2-3",
+        content: (<p className="u-nomargin"> 
+            As you might have expected, I travel around London (via trains, of course) in my spare time and take some good photos of trains. 
+            Well this is not possible for now due to COVID...
+            </p>),
+        remark: "My favourite railway classes are Stadler’s FLIRT (Class 745) and Hitachi’s AT300 (Class 800)."
     },
 ]
 
