@@ -6,6 +6,8 @@ import TopBanner from "../modules/TopBanner.js";
 import PublicationBackground from "../../img/PublicationBanner.png";
 
 import Stats from "../../data/Publication/Statistics_II.pdf";
+import TimesClass from "../../data/Publication/15_077_Project.pdf";
+import BCG from "../../data/Publication/6435_project.pdf";
 import Empirical from "../../data/Publication/Empirical.pdf";
 import RMTPDF from "../../data/Publication/18_338_Final_Project.pdf";
 import RMTPres from "../../data/Publication/18_338_Presentation.pdf";
@@ -47,6 +49,8 @@ class Publication extends Component {
             <p>Some miscellaneous informal expository writings on math. They are mainly my coursework.</p>
             <h4>Year 3 @MIT</h4>
                 <ul>
+                    <li>Classification of Financial Time Series (with H. Yu), 2021 (Final project of course 15.077 Statistical Machine Learning and Data Science) <a href={TimesClass} target="_blank">Notes</a></li>
+                    <li>Two Approaches of Probabilistic Solvers (with G. Guryev), 2021 (Final project of course 6.435 Bayesian Inference) <a href={BCG} target="_blank">Notes</a></li>
                     <li>Empirical Distribution Theory (with S. Im), 2020. (Final project of course 18.675 Theory of Probability) <a href={Empirical} target="_blank">Notes</a> </li>
                     <li>Computation of Empirical Measure, 2020. (Final project of course 18.338 Random Matrices) <a href={RMTPDF} 
                     target="_blank">PDF Notes</a>, <a href={RMTPres} target="_blank">Slides</a></li> {/* <a href={RMTNote} target="_blank">Full Notes</a>, */}

@@ -8,7 +8,7 @@ import ImageFlex from "../modules/ImageFlex.js";
 
 import ResumeBackground from "../../img/ResumeBanner.png";
 import {EducationList} from "../../data/Resume/Education.js";
-import ResumePDF from "../../data/Resume/CV_2021_V5.pdf";
+import ResumePDF from "../../data/Resume/CV_2021_V6.pdf";
 import Coding from "../modules/Coding.js";
 import CourseList from "../modules/CourseList.js";
 
