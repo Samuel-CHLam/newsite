@@ -1,0 +1,14 @@
+{
+  "name": "chlam-webpage-backend",
+  "version": "1.0.0",
+  "description": "this package contains the necessary libraries for the personal webpage of Samuel CHLam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel-CHLam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
