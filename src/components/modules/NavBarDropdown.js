@@ -2,10 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import "../../utilities.css";
-import "./NavBar.css";
+import "./NavBarDropdown.css";
 
 function NavBarDropdown () {
-    const Menuitems = [{title: "Marketing", path: "/marketing", cName:"navbardropdown-link"}];
+    const Menuitems = [
+        {title: "Marketing", path: "/", cName:"navbardropdown-link"},
+        {title: "Marketing2", path: "/", cName:"navbardropdown-link"},
+    ];
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
