@@ -1,48 +1,92 @@
-.NavBar-container {
-    /* padding: var(--s) var(--m); */
-    background-color: var(--primary);
-    height: 8vh;
+/* Trigger value - 1024px */
+
+.navbar-container {
+    background-color: var(--lightgrey);
+    height: 80px;
     box-shadow: 0 8px 10px -6px rgb(49, 49, 49);
     z-index: 1;
+    position: sticky;
+    top: 0px;
+    padding-inline: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0px;
-    width: 80%;
-    padding: 0% 10%;
   }
   
-  .NavBar-title {
-    padding: var(--s) 0;
-    color: var(--white);
-    font-size: 20px;
-    font-family: "Nobile";
-    justify-self: start;
-  }
-  
-  .NavBar-linkContainer {
-    /* margin-left: var(--l); */
-    justify-self: end;
-    margin-right: var(--l);
-  }
-  
-  .NavBar-link,
-  .NavBar-link:visited {
-    color: var(--white);
-    opacity: 0.7;
-    font-family: "Nobile";
-    text-decoration: none;
-  }
-  
-  .NavBar-link:hover {
+.navbar-title {
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  padding: var(--s) 0;
+  color: black;
+  font-size: 2rem;
+  font-family: "Open Sans";
+}
+
+.navbar-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 1.5rem;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  text-decoration: none;
+}
+
+.navbar-links:hover {
+  transition: all 0.2s ease-out;
+}
+
+.navbar-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    grid-gap: 0;
+    position: absolute;
+    top: 80px;
+    left: -100%;
     opacity: 1;
+    transition: all 0.5s ease;
   }
-  
-  .NavBar-link.NavBar-login {
+
+  .navbar-menu.active {
+    background: black;
+    left: 0;
     opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
   }
-  
-  .NavBar-link + .NavBar-link {
-    margin-left: var(--l);
+
+  .navbar-links {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    display: table;
   }
+
+  .navbar-links:hover {
+    background-color: var(--blue);
+  }
+
+  .navbar-menu-icon {
+    display: block;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}

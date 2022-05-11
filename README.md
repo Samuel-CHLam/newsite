@@ -1,13 +1,16 @@
 # Known Issues / Stuff to do
-- (Alpha) Logo of IC/MIT cropped.
-- (Alpha) Missing icons in contact information
 - (Alpha) Main logo
 - (Beta) Transition of background image of `TopBanner`
 - (Beta) Animation of description
 - (Beta) Privacy and cookie issues
-- (Beta) Mobile compatibility
 - Information for webpage development
-- My Story page
+- Masterplan 2022 / My Story page
+
+## Mobile Version
+- (Mobile) Navbar
+- (Mobile) Content
+- (Mobile) Bottombanner
+
 
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

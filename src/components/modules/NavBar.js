@@ -1,59 +1,64 @@
-import React, { Component } from "react";
-import { Router, Link } from "react-router-dom";
-// import MyGoogle from "./MyGoogle.js";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import {ReactComponent as WhiteLogo} from "../../img/Samuel_Lam_Logo_for_white.svg";
+import NavBarDropdown from "./NavBarDropdown.js"
 
 import "../../utilities.css";
 import "./NavBar.css";
 
-class NavBar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+function NavBar () {
 
-  componentDidMount() {
-    // remember -- api calls go here!
-  }
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
-  render() {
-    return (
-      <>
-        <nav className="NavBar-container">
-            <div className="NavBar-title u-inlineBlock">
-                <Link to="/" className="NavBar-link">
-                    Home
-                </Link>
-                {/* <Link to="/mystory" className="NavBar-link">
-                    My Story
-                </Link> */}
-                <Link to="/teaching" className="NavBar-link">
-                    Teaching
-                </Link>
-                <Link to="/research" className="NavBar-link">
-                    Research
-                </Link>
-                <Link to="/christian" className="NavBar-link">
-                    Religion
-                </Link>
-                <Link to="/eca" className="NavBar-link">
-                    ECA
-                </Link>
-            </div>
-            <div className="NavBar-linkContainer u-inlineBlock">
-              <Link to="/cv" className="NavBar-link">
-                  Curriculum Vitae
-              </Link>
-              <Link to="/publication" className="NavBar-link">
-                  Publication
-              </Link>
-            {/* <MyGoogle handleLogin={this.props.handleLogin}
-            handleLogout={this.props.handleLogout}
-            userId={this.props.userId} /> */}
-            </div>
-        </nav>
-      </>
-    );
-  }
+  const closeMobileMenu = () => setClick(false);
+
+  return (
+    <>
+      <nav className="navbar-container">
+          <div className="navbar-title u-inlineBlock">
+            <Link to="/"> <WhiteLogo/> </Link>
+          </div>
+          
+          {/* 
+              Academic
+                Research
+                Teaching
+                Imperial Wiki Initiative
+              Religion
+              Services
+                Webpage Development
+                Music Lab
+              Curriculum
+              Masterplan 2022
+            */}
+
+          <div className="navbar-menu-icon" onClick={() => setClick(!click)}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}/>
+          </div>
+
+          <ul className={click ? "navbar-menu active" : "navbar-menu"}>
+            <li className="navbar-item"> 
+              <Link to="/" className="navbar-links" onClick={closeMobileMenu}>
+                Academic <i className="fas fa-caret-down"/> </Link>
+                {dropdown && <NavBarDropdown />}
+                </li>
+            <li className="navbar-item"> 
+              <Link to="/christian" className="navbar-links" onClick={closeMobileMenu}>
+                Religion</Link></li>
+            <li className="navbar-item"> 
+              <Link to="/eca" className="navbar-links" onClick={closeMobileMenu}>
+                Non-Academic <i className="fas fa-caret-down"/> </Link></li>
+            <li className="navbar-item"> 
+              <Link to="/" className="navbar-links" onClick={closeMobileMenu}>
+                Curriculum Vitae</Link></li>
+            <li className="navbar-item"> 
+              <Link to="/" className="navbar-links" onClick={closeMobileMenu}>
+                Masterplan 2022</Link></li>
+          </ul>
+      </nav>
+    </>
+  );
 }
 
 export default NavBar;
