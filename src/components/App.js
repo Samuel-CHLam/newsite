@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import {HashRouter as Router, Redirect, Route, Switch} from "react-router-dom";
-import {connect} from "react-router-dom";
-// import { Router } from "@reach/router";
 import NavBar from "./modules/NavBar.js";
-import Header from "./modules/Header.js"
 import BottomBanner from "./modules/BottomBanner.js";
 
 import NotFound from "./pages/NotFound.js";
@@ -27,9 +24,6 @@ class App extends Component {
   // makes props available in this component
   constructor(props) {
     super(props);
-    this.state = {
-      userId: undefined,
-    };
   }
 
   componentDidMount() {}
@@ -48,7 +42,6 @@ class App extends Component {
             <Route exact path = "/christian" component = {Christian} />
             <Route exact path = "/eca" component = {ECA} />
             <Route exact path = "/privacy" component = {Privacy} />
-            {/* <Route exact path = "/christian" component = {NotFound} /> */}
           </Switch>
           </div>
         <BottomBanner />

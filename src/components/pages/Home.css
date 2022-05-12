@@ -6,13 +6,32 @@
 
 /* block */
 
-.home-flexleft{
-    align-items: center;
-    width: 70%;
+.home-academic-one {
+    display: flex;
 }
 
-.home-flexright{
-    margin-left: 10%;
+.home-flexleft {
+    align-items: center;
+    width: 75%;
+}
+
+.home-flexright {
+    margin-left: 5%;
     align-items: center;
     /* width: 20%; */
+}
+
+@media (max-width: 1024px) {
+    .home-academic-one {
+        flex-direction: column;
+    }
+
+    .home-flexleft {
+        width: 100%;
+    }
+
+    .home-flexright {
+        max-width: 400px;
+        margin-inline: auto;
+    }
 }

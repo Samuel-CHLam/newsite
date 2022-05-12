@@ -37,8 +37,8 @@ class BottomBanner extends Component {
           <div className="bottombanner-email">
             <b>Emails:</b>
             <ul className="u-nomargin">
-              <li><a href="mailto:chun.lam18@imperial.edu">chun.lam18@imperial.edu</a></li>
-              <li><a href="mailto:sammuelchlam@gmail.com">sammuelchlam@gmail.com</a></li>
+              <li><a href="mailto:chun.lam18@imperial.edu">chun.lam18@imperial.ac.uk</a> (Academic)</li> 
+              <li><a href="mailto:sammuelchlam@gmail.com">sammuelchlam@gmail.com</a> (Non-academic)</li>
             </ul>
           </div>
         </div>

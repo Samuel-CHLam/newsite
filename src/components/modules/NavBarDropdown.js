@@ -14,7 +14,12 @@ function NavBarDropdown (props) {
                 {props.menuItems.map((item, index) => {
                     return (
                         <li key={index}> 
-                            <Link className="navbardropdown-link" to={item.path} onClick={() => setClick(false)}> {item.title} </Link>
+                            {item.localpath ? (
+                                <Link className="navbardropdown-link" to={item.path} onClick={() => setClick(false)}> {item.title} </Link>
+                            ) : (
+                                <a className="navbardropdown-link" href={item.path} onClick={() => setClick(false)}> {item.title} </a>
+                            )
+                        }
                         </li>
                     )
                 })}

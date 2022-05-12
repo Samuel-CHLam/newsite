@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {ReactComponent as WhiteLogo} from "../../img/Samuel_Lam_Logo_for_black.svg";
 import NavBarDropdown from "./NavBarDropdown.js";
+import ResumePDF from "../../data/Resume/CV_2022_V1.pdf";
 
 import "../../utilities.css";
 import "./NavBar.css";
@@ -23,8 +24,7 @@ function NavBar () {
 
   const teachingSubpages = [
     {title: "Teaching Pages", localpath: true, path: "/teaching"},
-    {title: "Notes", localpath: true, path: ""},
-    {title: "Imperial Wiki", localpath: true, path: ""}
+    {title: "Resources", localpath: true, path: ""},
   ]
 
   // CV page
@@ -35,7 +35,7 @@ function NavBar () {
   const onMouseLeaveCV = () => {setDropdownCV(false)};
 
   const cvSubpages = [
-    {title: "Curriculum Vitae", localpath: true, path: "/cv"},
+    {title: "Curriculum Vitae (PDF)", localpath: false, path: ResumePDF},
     {title: "Writings", localpath: true, path: "/publication"},
     {title: "UG Programme", localpath: true, path: ""},
   ]

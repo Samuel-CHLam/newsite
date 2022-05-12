@@ -8,7 +8,7 @@ import ImageFlex from "../modules/ImageFlex.js";
 
 import ResumeBackground from "../../img/ResumeBanner.png";
 import {EducationList} from "../../data/Resume/Education.js";
-import ResumePDF from "../../data/Resume/CV_2021_V6.pdf";
+import ResumePDF from "../../data/Resume/CV_2022_V1.pdf";
 import Coding from "../modules/Coding.js";
 import CourseList from "../modules/CourseList.js";
 
@@ -34,7 +34,7 @@ class Achieve extends Component {
           score of 98% is achieved in this project."
         />
         <div className="u-block">
-          <h4> A PDF version of my curriculum vitae can be found <a href={ResumePDF} className="achieve-pdf">here</a>. </h4>
+          <h4> A PDF version of my curriculum vitae can be found <a href={ResumePDF}>here</a>. </h4>
         </div>
         <div className="u-block">
           <h2> Education </h2>
