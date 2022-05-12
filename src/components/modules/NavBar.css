@@ -1,4 +1,4 @@
-/* Trigger value - 1024px */
+/* Trigger value - 1225px */
 
 .navbar-container {
     background-color: black;
@@ -25,7 +25,7 @@
 
 .navbar-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 0.5rem;
   list-style: none;
   text-align: center;
@@ -85,7 +85,7 @@
 
   .navbar-links {
     text-align: center;
-    padding: 1rem;
+    padding: .8rem 0;
     width: 100%;
     display: table;
     font-size: 1rem;

@@ -20,8 +20,6 @@ import Privacy from "./pages/Privacy.js"
 import "../utilities.css";
 import "./App.css";
 
-import { get, post } from "../utilities";
-
 /**
  * Define the "App" component as a class.
  */
@@ -39,7 +37,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <NavBar /> 
+        <NavBar/> 
           <div>
           <Switch>
             <Route exact path ="/" component={Home} />
