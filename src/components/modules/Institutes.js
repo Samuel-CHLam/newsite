@@ -17,7 +17,7 @@ class Institutes extends Component {
     return (
       <div className="institutes-container">
         <a href="https://www.imperial.ac.uk/" className="institutes-imperial"> </a>
-        <a href="https://web.mit.edu/" className="institutes-mit"> </a>
+        {/* <a href="https://web.mit.edu/" className="institutes-mit"> </a> */}
       </div>
     );
   }

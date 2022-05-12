@@ -7,8 +7,10 @@ import Image from "../modules/Image.js"
 import ImageFlex from "../modules/ImageFlex.js"
 
 import ECABackground from "../../img/ECABanner.png";
-import webpage from "../../img/webpage.png";
-import minecraft from "../../img/minecraft_station.png";
+import eventinder from "../../img/eventinder.PNG";
+import myself from "../../img/myself.PNG";
+import mathsoc from "../../img/rcsu_maths.PNG";
+import railsoc from "../../img/scc_railway.PNG";
 import cambodia from "../../img/cambodia.jpg";
 import {Year23, Year1} from "../../data/ECA/ECAEntries.js";
 
@@ -35,67 +37,55 @@ class ECA extends Component {
             DramSoc</i> production of drama <i> And Then There Were None</i>.
             I was a Deputy Stage Manager in that production. Credit to Daniel Lo.</>}
         />
-        <div className="u-block">
-          <h2> Year 2/3</h2>
-          <p> Not much could be done due to COVID-19 😢 -- I have tried my best: </p>
-          <div>
-            {Year23.map( (item) => { return (
-              <ImageFlex key={item.key} imageandDes={item} />)
-            })}
-          </div>
+        
+        {/* Webpage development */}
+        <div className="u-block"> 
+          <h1>Webpage Development</h1> 
+          <p>I am currently a webmaster of a couple of student societies. Huge shout-out to the <a href="https://weblab.mit.edu/">MIT Web.lab team</a> for their insightful 
+              crash course in MERN framework.</p>
         </div>
-        <div className="u-block u-flex ECA-firstfig">
+        <div className="u-block ECA-webpagefig">
           <div className="ECA-figleft">
             <Image 
-              src={webpage}
-              des="Screenshot of the webpage we have built in web.lab. This is a webpage displaying events 
-              happening around the MIT campus."
+              src={mathsoc}
+              des="Imperial Mathsoc: the deparmental society representing more than 700 undergraduates and 300 postgraduates. The website has been redesigned to improve accessibility."
             />
           </div>
           <div className="ECA-figright">
             <Image 
-              src={minecraft}
-              des="A station built in my minecraft server."
+              src={railsoc}
+              des="Rail and Transport society (ICRTS): society for enthusiasts of transportation (especially railway). 
+              With help of other committee members, the webpage is also redesigned to reflect on the current growth of the society."
             />
           </div>
         </div>
-        <div className="u-block">
-          <h2> Year 1</h2>
-          <p> Despite my age, I was able to enjoy most of the activities a typical Imperial Hong Kong student would join in their first years.
-            But my age stopped me from engaging more (Imperial College Union (ICU) did not allow me to run for committee positions. I even have difficulties
-            in entering the ICU building at night). </p>
-          <div>
-            {Year1.map( (item) => { return (
-              <ImageFlex key={item.key} imageandDes={item} />)
-            })}
+        <div className="u-block ECA-webpagefig">
+          <div className="ECA-figleft">
+            <Image 
+              src={eventinder}
+              des="Eventinder: webpage built web.lab displaying events happening around the MIT campus. It is no longer maintained"
+            />
           </div>
-          {/* <ul>
-            <li> I am a subcommittee of Imperial College Public Awareness and Social Service 
-              Society (<a href="https://www.imperialcollegeunion.org/activities/a-to-z/pass">ICPASS</a>). I am responsible in 
-              the following events: 
-              <ul>
-                <li> <b>Famine 24:</b> Participants were required to experience the life of people in third-world countries by 
-                starving for 24 hours and engage in specially-designed activities. We were responsible in designing activities related
-                to conservation. </li>
-                <li> <b>Oxford Model Legislative Council (OMLC):</b> We were responsible to draft and put forward a "model bill" related to 
-                national security matters to the Model Legislative Council (Hong Kong equivalent to parliament/congress) for debate. </li>
-                <li> I am also a member of <b>Publication Team</b>. We have 
-                  published <a href="https://issuu.com/icpass/docs/passtimes_xmas_-_short__1__copy">PASSTIMES</a>, a 
-                  bi-annual (?) magazine on ICPASS event highlights and proses. I think I have written a note on maximum likelihood 
-                  estimation, but it is quite informal and might be erroneous...</li>
-              </ul>  
-                </li>
-            <li> I have participated in various performances in the Imperial Dramatic Society (DramSoc):
-              <ul>
-                <li> <b> 2019 Spring: Legally Blonde (with ICU Musical Theatre Society): </b> As Sound Designer. </li>
-                <li> <b> 2018 Autumn: And Then There Were None: </b> As Deputy Stage Manager. </li>
-                <li> I also supported various productions in 2019 Spring Show, a series of shows by cultural societies. </li>
-              </ul>
-                </li>
-            <li> I am a committee member of Hall Committee of Gabor Hall. </li>
-          </ul> */}
+          <div className="ECA-figright">
+            <Image 
+              src={myself}
+              des="Unsurprisingly, my personal webpage is handcrafted by myself. 
+                This is a good reflection of how much I have progressed in webpage development (and other aspects as well)."
+            />
+          </div>
         </div>
-        <div className="u-block u-flex" style={{top: 24}}>
+
+        <div className="u-block">
+          <h1>Volunteering</h1>
+          <ul>
+            <li>During the academic year of 2018-19 (year 1), I was a subcommittee member of the <a href="https://icpass.org/">Imperial College Public Awareness and Social Service (ICPASS) Society</a>. 
+            My main duty was to organise the flagship event, <b>Famine 24</b>; as well as to edit the society megazine, the <a href="https://issuu.com/icpass/docs/passtimes_xmas_-_short__1__copy">PASSTIMES</a>.</li>
+            <li>Together with my high school colleagues, we have offered free English classes in Cambodia in summer 2018. </li>
+            <li> Together with the Hong Kong Federation of Youth Groups (<a href="https://hkfyg.org.hk/en/home/">HKFYG</a>), 
+            we organised post-school activities for primary school students resided in Ping Shek Estate during the academic year of 2017-18. Those include tutorials and minigames. </li>
+          </ul>
+        </div>
+        <div className="u-block ECA-bottom" style={{top: 24}}>
           <div className="ECA-secondfigleft">
             <Image 
               src={cambodia}
@@ -103,13 +93,13 @@ class ECA extends Component {
             />
           </div>
           <div className="ECA-secondfigright">
-            <h2> High School </h2>
-            <p> During my final years being high school student, I had participated in various voluntary services.</p>
+            <h1 style={{marginTop: 0}}> Other hobbies </h1>
             <ul>
-              <li> <b> Cambodia Service Trip: </b> We offered English classes and build houses for villages in Cambodia. </li>
-              <li> Together with the Hong Kong Federation of Youth Groups (<a href="https://hkfyg.org.hk/en/home/">HKFYG</a>), 
-              we have organised post-school activities for primary school students resided in Ping Shek Estate, 
-              including but not limited to tutorials and minigames. </li>
+              <li>Playing piano. (Currently learning how to play synthesiser and drum!)</li>
+              <li>Travelling <b>by train</b>.</li>
+              <li>Cycling around London</li>
+              <li>Building stuff in Minceraft (not the famous game Minecraft).</li>
+              <li>I am a staff in Imperial College DramSoc.</li>
             </ul>
           </div>
         </div>

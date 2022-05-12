@@ -4,8 +4,9 @@
     font-weight:300;
 }
 
-.ECA-firstfig {
+.ECA-webpagefig {
     justify-content: center;
+    display: flex;
 }
 
 .ECA-figleft {
@@ -14,7 +15,11 @@
 
 .ECA-figright {
     margin-left: 5%;
-    width: 47%;
+    width: 45%;
+}
+
+.ECA-bottom {
+    display: flex;
 }
 
 .ECA-secondfigleft {
@@ -24,4 +29,39 @@
 .ECA-secondfigright {
     margin-left: 5%;
     width: 60%;
+}
+
+@media (max-width: 1024px) {
+    .ECA-webpagefig {
+        flex-direction: column;
+    }
+
+    .ECA-figleft {
+        width: 100%;
+        max-width: 600px;
+        margin-inline: auto;
+    }
+    
+    .ECA-figright {
+        width: 100%;
+        max-width: 600px;
+        margin-inline: auto;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 956px) {
+    .ECA-bottom {
+        flex-direction: column;
+    }
+
+    .ECA-secondfigleft {
+        width: 100%;
+        max-width: 600px;
+        margin-inline: auto;
+    }
+    
+    .ECA-secondfigright {
+        width: 100%;
+    }
 }
