@@ -1,46 +1,39 @@
-.research-grid {
-    margin-top: 4vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 15px;
-    grid-template-areas:
-    "One-Left One-Right"
-    "Two-Left Two-Right"
-    "Three Three"
-    "Four Four";
-    grid-auto-rows: auto;
-}
-
 .math-banner-highlight {
     color: var(--blue);
     font-size: 38px;
     font-weight:300;
 }
 
+.research-container {
+    margin-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+
 .research-ml-left {
-    grid-area: One-Left;
+    width: 45%;
 }
 
 .research-ml-right {
-    grid-area: One-Right;
+    width: 45%;
 }
 
-.research-bayes-left {
-    grid-area: Two-Left;
+.research-dy-top {
+    margin-top: 2rem;
 }
 
-.research-bayes-right {
-    grid-area: Two-Right;
-}
+@media (max-width: 1024px) {
+    .research-container {
+        flex-direction: column-reverse;
+    }
 
-.research-dynam-one {
-    grid-area: Three;
-}
+    .research-ml-right {
+        width: 100%;
+    }
 
-.research-dynam-two {
-    grid-area: Four;
+    .research-ml-left {
+        width: 100%;
+        max-width: 400px;
+        margin-inline: auto;
+    }
 }
-
-/* .math-right {
-} */

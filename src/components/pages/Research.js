@@ -38,7 +38,7 @@ class Research extends Component {
             bridge as size of sample increases. Taken from 18.675 final paper with Shawn Im. </>}
         />
       <div className="u-block">
-        <div className="research-grid">
+        <div className="research-container">
           <div className="research-ml-left">
             <Image src={tracyWidom}
             des="Tracy Widom Distribution - the distribution of the largest eigenvalue of
@@ -51,21 +51,8 @@ class Research extends Component {
               Thanks to recent advances in random matrix theory, we may prove quantitative estimates of distributions of estimators 
               (e.g. oracle inequalities), and hence evaluate their reliability.</p>
           </div>
-          <div className="research-bayes-left">
-            <Image src={Predictive}
-            des="Predictive bands of tumor growth, simulated from Monte Carlo." />
-          </div>
-          <div className="research-bayes-right">
-            <h3> Bayesian Computation </h3>
-            <p> The classical Bayes formula had motivated another Bayesian Statistics, which explores how our beliefs interact with data. 
-              This is particularly useful in modeling time evolutions, e.g. the spread of Covid-19. Nevertheless, posterior distributions 
-              are usually hard to be analytically computed, so we simulate them instead (e.g. generate histograms/obtain summary statistics). 
-              There are two classical algorithms for the simulation of distributions, namely Rejection Sampling and Metropolitan Hastings. 
-              Recent studies suggest that ideas of physics can be used to simulate distributions efficiently. I would like to look at how 
-              these algorithms behind in complex models (with complex state spaces).</p>
-          </div>
         </div>
-        <div>
+        <div className="research-dy-top">
             <h3> Dynamical Systems and Stochastic Analysis </h3>
             <p> I have always been astonished by the relationship between deterministic differential equations and Stochastic Differential Equations (SDE). 
             The classical formulae of Dynkin and Feynman-Kac had helped us to study the quantitative behaviors of solutions to differential equations. 

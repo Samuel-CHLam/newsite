@@ -30,7 +30,7 @@ class Teaching extends Component {
           for Department of Mathematics at Imperial College London."
         />  
       <div className="u-block">
-        <h2> Current Teaching </h2>
+        <h2> Past Teaching </h2>
       </div>
       <div className="u-block">
             <h3 className="u-nomargin"> Imperial: Spring Peer Tutorial (Group 21) </h3>
