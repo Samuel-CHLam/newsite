@@ -24,7 +24,8 @@ class BottomBanner extends Component {
         <div className="bottombanner-left">
           <Institutes />
           <div className="bottombanner-link">
-            <Link to="/privacy">Privacy</Link> | <a href="https://accessibility.mit.edu/">Accessibility</a> | <a href="https://github.com/Samuel-CHLam/newsite">About the website</a>
+            <div> <Link to="/privacy">Privacy</Link> | <a href="https://accessibility.mit.edu/">Accessibility</a></div>
+            <div> <a href="https://github.com/Samuel-CHLam/newsite">About the website</a> </div>
           </div>
         </div>
         <div className="bottombanner-right"> 
