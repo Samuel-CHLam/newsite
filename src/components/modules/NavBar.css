@@ -1,7 +1,7 @@
 /* Trigger value - 1024px */
 
 .navbar-container {
-    background-color: var(--lightgrey);
+    background-color: black;
     height: 80px;
     box-shadow: 0 8px 10px -6px rgb(49, 49, 49);
     z-index: 1;
@@ -18,7 +18,7 @@
   cursor: pointer;
   text-decoration: none;
   padding: var(--s) 0;
-  color: black;
+  color: white;
   font-size: 2rem;
   font-family: "Open Sans";
 }
@@ -45,10 +45,12 @@
   text-decoration: none;
   padding: 0.5rem 0.75rem;
   font-size: 0.8rem;
+  color: var(--lightgrey);
 }
 
 .navbar-links:hover {
   transition: all 0.2s ease-out;
+  color: var(--blue);
 }
 
 .navbar-menu-icon {
@@ -98,5 +100,6 @@
     display: block;
     font-size: 1.8rem;
     cursor: pointer;
+    color: white;
   }
 }

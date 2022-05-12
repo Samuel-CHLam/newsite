@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import {ReactComponent as WhiteLogo} from "../../img/Samuel_Lam_Logo_for_white.svg";
+import {ReactComponent as WhiteLogo} from "../../img/Samuel_Lam_Logo_for_black.svg";
 import NavBarDropdown from "./NavBarDropdown.js"
 
 import "../../utilities.css";
