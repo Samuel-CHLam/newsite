@@ -1,3 +1,13 @@
+# Acknowledgement
+The webpage is developed with the skeleton code / templates provided by 
+- [MIT Web.Lab team](https://weblab.mit.edu/)
+- [Timothy Lo](https://lochungtin.github.io/site/)
+- [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw): *for mobile compability*
+- [Brian @Brian Design](https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A/videos?view_as=subscriber): *for the updated Navbar*
+- [Yanni Chau aka Cluelessyanni](https://cluelesselectrostar.github.io/ytc-web/#/): *for backend*
+
+and has received additional feedback by [Thomas Cheng](https://nhcheng.mit.edu/) and [Ken Lee](https://kl-i.github.io/).
+
 # Known Issues / Stuff to do
 - (Alpha) Main logo
 - (Beta) Transition of background image of `TopBanner`
@@ -10,7 +20,6 @@
 - (Mobile) Navbar
 - (Mobile) Content
 - (Mobile) Bottombanner
-
 
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

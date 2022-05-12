@@ -1,6 +1,5 @@
 .institutes-container {
     display: flex;
-    width: 391px;
 }
 
 .institutes-imperial {
@@ -30,7 +29,7 @@
     width: 184px;
     height: 43.5px;
     padding: 0;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 1.5rem;
 }
 
 .institutes-mit:hover {
@@ -40,9 +39,23 @@
     width: 184px;
     height: 43.5px;
     padding: 0;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 1.5rem;
 }
-/* 
-.institutes-imperial + .institutes-mit {
-    margin-left: 3vw;
-} */
+
+@media (max-width: 1025px) {
+    .institutes-container {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .institutes-container {
+        flex-direction: column;
+    }
+
+    .institutes-mit {
+        margin-inline: auto;
+        margin-top: 0.75rem;
+    }
+}
