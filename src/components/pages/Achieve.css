@@ -1,5 +1,5 @@
 .achieve-highlight {
-    color: #fff066;
+    color: var(--orange);
     font-size: 48px;
     font-weight:300;
 }

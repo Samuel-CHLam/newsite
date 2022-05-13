@@ -23,7 +23,7 @@ class Teaching extends Component {
     <div className="App-container">
       <TopBanner 
           background={TeachingBackground}
-          title={<span className="teaching-highlight"> TEACHING </span>}
+          title={<span className="teaching-highlight"> Teaching </span>}
           content={<> This page contains all the materials for my teaching 
           activities. </>}
           des="Clore Lecture Theatre -- the main lecture theatre 

@@ -27,8 +27,7 @@ class Home extends Component {
           // title="CHUN HEI SAMUEL LAM"
           title={(<> CHUN HEI <span className="home-banner-highlight"> SAMUEL </span> LAM </>)}
           content="Aspiring applied mathematician."
-          des="Taken in 2018 at the main entrance of Imperial College London.
-          Credit to Daniel Lo."
+          des="Taken at the main entrance of Imperial College London. Credit to Daniel Lo."
         />
         <div className="u-block">
           <div className="home-academic-one">

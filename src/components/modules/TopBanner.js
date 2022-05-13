@@ -26,6 +26,7 @@ class TopBanner extends Component {
 
   render() {
     return (
+      <>
         <div className="topbanner" style={{
             backgroundImage: `url("${this.props.background}")`}}>
             <div className="topbanner-bodycontainer">
@@ -34,6 +35,14 @@ class TopBanner extends Component {
                 <p className="topbanner-des"> &#9654; {this.props.des} </p>
             </div>
         </div>
+        <div className="topbanner-mobile-des">
+          &#9650; {this.props.des} 
+        </div>
+        <div className="u-block topbanner-mobile">
+          <h1 className="topbanner-title"> {this.props.title} </h1>
+          <p className="topbanner-content"> {this.props.content} </p>
+        </div>
+      </>
     );
   }
 }

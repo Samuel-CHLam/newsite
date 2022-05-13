@@ -25,17 +25,16 @@ class Research extends Component {
       <div className="App-container">
       <TopBanner 
           background={mathBackground}
-          title={<> To the wonder of <span 
+          title={<> <span 
           className="math-banner-highlight"> Statistical 
-          Learning </span> and <span
+          Learning Theory </span> with <span
           className="math-banner-highlight"> Stochastic Analysis </span> </>}
           content="I study how the relation between dynamical systems and SDE can be
           utilised to establish quantitative results. I also study efficiency of  
           Bayesian Inferences and statistical properties of estimators arisen in
           machine learning algorithms."
-          des={<> Samples from brownian bridge. The <i>Empirical Central Limit 
-            Theorem</i> reveals that empirical process converges weakly to brownian 
-            bridge as size of sample increases. Taken from 18.675 final paper with Shawn Im. </>}
+          des={<> Samples from brownian bridge. The Empirical Central Limit Theorem reveals that empirical process converges weakly to brownian bridge as size of sample increases. 
+          Taken from a final paper written with Shawn Im.</>}
         />
       <div className="u-block">
         <div className="research-container">
