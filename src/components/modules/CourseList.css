@@ -18,8 +18,27 @@
     background-color: var(--lightgrey);
 }
 
+.courselist-term + .courselist-term {
+    margin-top: 1rem;
+}
+
 .courselist-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 12px;
+    display: block;
+}
+
+@media (min-width: 1024px) {
+    .courselist-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 12px;
+    }
+
+    .courselist-title-left {
+        margin-bottom: 0px;
+    }
+
+    .courselist-term + .courselist-term {
+        margin-top: 0;
+    }
+    
 }

@@ -48,7 +48,13 @@ class Achieve extends Component {
         </div>
         <div className="u-block">
           <h2> Coding Skills </h2>
-          <div> <Coding /> </div>
+          <div> 
+            {/* <Coding /> */}
+            <ul>
+              <li><b>Scientific Computing:</b> Julia, MATLAB, Python, R. </li>
+              <li><b>Webpage Developments:</b> HTML5, CSS3, Javascript with MERN. </li>
+            </ul>
+          </div>
         </div>
         <div className="u-block">
           <h2> Courses Hall of Fame </h2>

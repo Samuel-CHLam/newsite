@@ -8,20 +8,6 @@ import logosLogo from "../../img/logo/institutes/logosAcademy.jpg";
 
 const EducationList = [
     {
-        key: "MIT",
-        image: mitLogo,
-        title: "Massachusetts Institute of Technology",
-        titledes: "Exchange Student (Junior/Third Year)",
-        titleright: "September 2020 - Present",
-        content: (<> 
-            <ul className="u-nomargin"> 
-                <li> Concentration: Dynamical Systems, Stochastic Analysis, Statistical Learning </li>
-                <li> Fall and IAP Results: GPA 5.0/5.0 </li>
-            </ul>
-            </>),
-        remark: ""
-    },
-    {
         key: "Imperial",
         image: imperialLogo,
         title: "Imperial College London",
@@ -31,6 +17,20 @@ const EducationList = [
             <ul className="u-nomargin"> 
                 <li> Year 1 Results: First honor with Dean's List </li>
                 <li> Year 2 Results: First honor with Dean's List </li>
+            </ul>
+            </>),
+        remark: ""
+    },
+    {
+        key: "MIT",
+        image: mitLogo,
+        title: "Massachusetts Institute of Technology",
+        titledes: "Exchange Student (Junior/Third Year)",
+        titleright: "September 2020 - May 2021",
+        content: (<> 
+            <ul className="u-nomargin"> 
+                <li> Concentration: Dynamical Systems, Stochastic Analysis, Statistical Learning </li>
+                <li> Fall and IAP Results: GPA 5.0/5.0 </li>
             </ul>
             </>),
         remark: ""

@@ -35,3 +35,41 @@
     color: gray;
     font-size: 14px;
 }
+
+@media (max-width: 1225px) {
+    .imageflex-margin {
+        flex-direction: column;
+    }
+
+    .imageflex-title-left {
+        width: 100%
+    }
+
+    .imageflex-title-right {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media (max-width: 752px) {
+    .imageflex-container {
+        flex-direction: column;
+    }
+
+    .imageflex-left {
+        width: 100%;
+        max-width: 300px;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .imageflex-left img {
+        display: block;
+        margin-inline: auto;
+    }
+
+    .imageflex-right {
+        margin-left: 0;
+        width: 100%;
+    }
+}

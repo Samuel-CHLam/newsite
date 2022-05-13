@@ -44,7 +44,7 @@ class YearContainer extends Component {
           <div className="courselist-year-container">
           {this.props.yearObj.termArray.map( (termObj,i) => {
             return (
-              <div key={i}>
+              <div key={i} className="courselist-term">
                <h4 className="u-nomargin"> {termObj.term}: </h4>
                <div className="courselist-grid"> 
                <div className="u-nomargin"> 

@@ -30,7 +30,7 @@ class ImageFlex extends Component {
         )
       } else {
           Title = (
-              <div className="imageflex-imageflex-margin"> 
+              <div className="imageflex-margin"> 
                   <h3 className="u-nomargin"> {this.props.imageandDes.title} </h3>
                   <p> {this.props.imageandDes.titledes} </p>
               </div>
