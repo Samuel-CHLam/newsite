@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newsite/static/css/main.9c5e39e8.css",
-    "main.js": "/newsite/static/js/main.6c5b8b62.js",
+    "main.css": "/newsite/static/css/main.d9c1feaf.css",
+    "main.js": "/newsite/static/js/main.bacbdd5d.js",
     "static/media/cambodia.jpg": "/newsite/static/media/cambodia.1693197d6334b4222c19.jpg",
     "static/media/rcsu_maths.PNG": "/newsite/static/media/rcsu_maths.2b28feb528fb559537d9.PNG",
     "static/media/scc_railway.PNG": "/newsite/static/media/scc_railway.3a930362c4dc822c9d2e.PNG",
@@ -55,11 +55,11 @@
     "static/media/Samuel_Lam_Logo_for_black.svg": "/newsite/static/media/Samuel_Lam_Logo_for_black.0152b9f991ceb97e3f735b5a9fd2212d.svg",
     "static/media/MIT-logo-red-gray-72x38.svg": "/newsite/static/media/MIT-logo-red-gray-72x38.87629d1964986f16398a2f779709013a.svg",
     "index.html": "/newsite/index.html",
-    "main.9c5e39e8.css.map": "/newsite/static/css/main.9c5e39e8.css.map",
-    "main.6c5b8b62.js.map": "/newsite/static/js/main.6c5b8b62.js.map"
+    "main.d9c1feaf.css.map": "/newsite/static/css/main.d9c1feaf.css.map",
+    "main.bacbdd5d.js.map": "/newsite/static/js/main.bacbdd5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c5e39e8.css",
-    "static/js/main.6c5b8b62.js"
+    "static/css/main.d9c1feaf.css",
+    "static/js/main.bacbdd5d.js"
   ]
 }
