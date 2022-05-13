@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./Home.css";
 
-import { Link } from "@reach/router";
+import { Link } from "react-router-dom";
 import TopBanner from "../modules/TopBanner.js";
 import HomeBackground from "../../img/PersonalBanner(2).png";
 import randomWalk from "../../img/homerandom.png";
@@ -69,7 +69,7 @@ class Home extends Component {
             I engage in a lot of things outside mathematics! I develop website, play a bit of music and bike around London. 
             As a christian, I am also interested in reading about my faith.
           </p>
-          <p> <Link to="/christianity"> Click here for my engagement as a christian. </Link> </p>
+          <p> <Link to="/christian"> Click here for my engagement as a christian. </Link> </p>
           <p> <Link to="/eca"> Click here for other extra-curricular engagements. </Link> </p>
         </div>
         </div>
