@@ -1,0 +1,16 @@
+.Header-container {
+    display: flex;
+    width: 80%;
+    padding: 0% 10%;
+    justify-content: space-between;
+}
+
+.Header-left {
+    width: 42%;
+    margin: 2vh 0;
+}
+
+.Header-right {
+    /* width: 32%; */
+    margin: 2vh 0;
+}
