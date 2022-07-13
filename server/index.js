@@ -8,6 +8,7 @@ const courseRoute = require("./routes/courses");
 const postRoute = require("./routes/posts");
 const publicationRoute = require("./routes/publications");
 const teachingRoute = require("./routes/teachings");
+const multer = require("multer");
 
 // Setup for mongodb
 dotenv.config();
@@ -23,6 +24,20 @@ mongoose
   })
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.log(`Error connecting to MongoDB111: ${err}`));
+
+// storage (in github)
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {cb(null,"images")},
+  filename: (req, file, cb) => {
+    // cb(null, req.body.name)
+    cb(null, "hello.jpeg")
+  }
+})
+
+const upload = multer({storage: storage});
+app.post("/api/upload", upload.single("file"), (req,res) => {
+  res.status(200).json("File uploading test successful!")
+})
 
 // get is for specific route, use is for any routes that begin with the string.
 
