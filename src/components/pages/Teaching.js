@@ -4,7 +4,6 @@ import "../../utilities.css";
 import "./Teaching.css";
 import TeachingBackground from "../../img/TeachingBanner.png";
 import TopBanner from "../modules/TopBanner.js";
-import MyAlert from "../modules/MyAlert.js"
 import FallInfo from '../../data/Teaching/FallInfo.pdf';
 import SpringInfo from '../../data/Teaching/SpringInfo.pdf';
 
@@ -34,7 +33,7 @@ class Teaching extends Component {
       </div>
       <div className="u-block">
             <h3 className="u-nomargin"> Imperial: Spring Peer Tutorial (Group 21) </h3>
-            <p> <b>Term</b> 2021 Spring | <b>Time:</b> Monday 10:30-11:30 (GMT) | <b>Venue:</b> Virtual (Microsoft Teams) | <b>Role:</b> Tutor | <b> Syllabus:</b> <a href={SpringInfo} target="_blank">here</a>. </p>
+            <p> <b>Term</b> 2021 Spring | <b>Time:</b> Monday 10:30-11:30 (GMT) | <b>Venue:</b> Virtual (Microsoft Teams) | <b>Role:</b> Tutor | <b> Syllabus:</b> <a href={SpringInfo} target="_blank" rel="noreferrer">here</a>. </p>
             <p> <i>Student discusses special topics related to lecture materials. </i> </p>
             <p className="u-nomargin"> Tentative Schedule: (Participants are more than welcomed to
             suggest their topics.) </p>
@@ -55,7 +54,7 @@ class Teaching extends Component {
       </div>
       <div className="u-block">
             <h3 className="u-nomargin"> Imperial: Fall Peer Tutorial (Group 47) </h3>
-            <p> <b>Term</b> 2020 Fall | <b>Time:</b> Thursday 11:00-12:00 (GMT) | <b>Venue:</b> Virtual (Microsoft Teams) | <b>Role:</b> Tutor | <b> Syllabus:</b> <a href={FallInfo} target="_blank">here</a>.  </p>
+            <p> <b>Term</b> 2020 Fall | <b>Time:</b> Thursday 11:00-12:00 (GMT) | <b>Venue:</b> Virtual (Microsoft Teams) | <b>Role:</b> Tutor | <b> Syllabus:</b> <a href={FallInfo} target="_blank" rel="noreferrer">here</a>.  </p>
             <p> <i>Student discusses special topics related to lecture materials. </i> </p>
             <p className="u-nomargin"> Schedule: </p>
             <ul className="u-nomargin">

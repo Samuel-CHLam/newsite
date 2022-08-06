@@ -6,7 +6,6 @@ import "./Research.css";
 import TopBanner from "../modules/TopBanner.js";
 import Image from "../modules/Image.js";
 import tracyWidom from "../../img/tracywidom.png";
-import Predictive from "../../img/PredictiveNew.png";
 import Diffusion from "../../img/Diffusion_Comparison.png";
 import mathBackground from "../../img/MathBanner.png";
 

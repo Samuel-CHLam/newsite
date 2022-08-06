@@ -1,4 +1,4 @@
-/* Trigger value - 1320px */
+/* Trigger value - 1240px */
 
 .navbar-container {
     background-color: black;
@@ -25,7 +25,7 @@
 
 .navbar-menu {
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(7, auto);
   grid-gap: 0.5rem;
   list-style: none;
   text-align: center;
@@ -57,7 +57,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1240px) {
   .navbar-menu {
     display: flex;
     flex-direction: column;

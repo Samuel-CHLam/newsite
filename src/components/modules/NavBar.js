@@ -14,10 +14,21 @@ function NavBar () {
   const [dropdownCV, setDropdownCV] = useState(false);
 
   const closeMobileMenu = () => setClick(false);
-  
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+  const collapseAfterClick = () => {
+    closeMobileMenu();
+    scrollToTop();
+  }
+
   // Teaching page
+  /* Trigger value - 1240px */
   const onMouseEnterTeaching = () => {
-    if (window.innerwidth < 1225) {setDropdownTeaching(false)} else {setDropdownTeaching(true)};
+    if (window.innerwidth < 1240) {setDropdownTeaching(false)} else {setDropdownTeaching(true)};
   };
 
   const onMouseLeaveTeaching = () => {setDropdownTeaching(false)};
@@ -29,7 +40,7 @@ function NavBar () {
 
   // CV page
   const onMouseEnterCV = () => {
-    if (window.innerwidth < 1225) {setDropdownCV(false)} else {setDropdownCV(true)};
+    if (window.innerwidth < 1240) {setDropdownCV(false)} else {setDropdownCV(true)};
   };
 
   const onMouseLeaveCV = () => {setDropdownCV(false)};
@@ -44,7 +55,7 @@ function NavBar () {
     <>
       <nav className="navbar-container">
           <div className="navbar-title u-inlineBlock">
-            <Link to="/"> <WhiteLogo/> </Link>
+            <Link to="/" onClick={scrollToTop}> <WhiteLogo/> </Link>
           </div>
 
           <div className="navbar-menu-icon" onClick={() => setClick(!click)}>
@@ -52,7 +63,7 @@ function NavBar () {
           </div>
 
           <ul className={click ? "navbar-menu active" : "navbar-menu"}>
-            <li className="navbar-item" onClick={closeMobileMenu}> 
+            <li className="navbar-item" onClick={collapseAfterClick}> 
               <Link to="/research" className="navbar-links" >Research</Link>
             </li>
 
@@ -62,9 +73,9 @@ function NavBar () {
             </li>
 
             <li className="navbar-item"> 
-              <Link to="/christian" className="navbar-links" onClick={closeMobileMenu}>Religion</Link></li>
+              <Link to="/christian" className="navbar-links" onClick={collapseAfterClick}>Religion</Link></li>
 
-            <li className="navbar-item" onClick={closeMobileMenu}> 
+            <li className="navbar-item" onClick={collapseAfterClick}> 
               <Link to="/eca" className="navbar-links"> Non-Academic </Link>
             </li>
 
@@ -75,11 +86,11 @@ function NavBar () {
             </li>
             
             <li className="navbar-item"> 
-              <a href="https://samuel-chlam.github.io/masterplan-2022/" className="navbar-links" onClick={closeMobileMenu}>
+              <a href="https://samuel-chlam.github.io/masterplan-2022/" className="navbar-links" onClick={collapseAfterClick}>
                 Masterplan 2022</a></li>
 
             <li className="navbar-item">
-              <a href="https://samuel-chlam.github.io/graduation/" className="navbar-links" onClick={closeMobileMenu}>
+              <a href="https://samuel-chlam.github.io/graduation/" className="navbar-links" onClick={collapseAfterClick}>
                 Graduation Info</a></li>
           </ul>
       </nav>

@@ -4,7 +4,7 @@ import "../../utilities.css";
 import "./ECA.css";
 import TopBanner from "../modules/TopBanner.js";
 import Image from "../modules/Image.js"
-import ImageFlex from "../modules/ImageFlex.js"
+// import ImageFlex from "../modules/ImageFlex.js"
 
 import ECABackground from "../../img/ECABanner.png";
 import eventinder from "../../img/eventinder.PNG";
@@ -12,7 +12,6 @@ import myself from "../../img/myself.PNG";
 import mathsoc from "../../img/rcsu_maths.PNG";
 import railsoc from "../../img/scc_railway.PNG";
 import cambodia from "../../img/cambodia.jpg";
-import {Year23, Year1} from "../../data/ECA/ECAEntries.js";
 
 class ECA extends Component {
   constructor(props) {
