@@ -6,7 +6,6 @@ import BottomBanner from "./modules/BottomBanner.js";
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
 import Teaching from "./pages/Teaching.js"
-import MyStory from "./pages/MyStory.js"
 import Achieve from "./pages/Achieve.js"
 import Research from "./pages/Research.js"
 import Publication from "./pages/Publication.js"
