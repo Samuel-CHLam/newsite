@@ -77,6 +77,10 @@ function NavBar () {
             <li className="navbar-item"> 
               <a href="https://samuel-chlam.github.io/masterplan-2022/" className="navbar-links" onClick={closeMobileMenu}>
                 Masterplan 2022</a></li>
+
+            <li className="navbar-item">
+              <a href="https://samuel-chlam.github.io/graduation/" className="navbar-links" onClick={closeMobileMenu}>
+                Graduation Info</a></li>
           </ul>
       </nav>
     </>

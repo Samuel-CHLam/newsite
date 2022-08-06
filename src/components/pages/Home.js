@@ -32,10 +32,12 @@ class Home extends Component {
         <div className="u-block">
           <div className="home-academic-one">
             <div className="home-flexleft">
-              <p><b> I am a final-year undergraduate at <a href="https://www.imperial.ac.uk/">Imperial College London</a> reading mathematics. 
+              <p><b> I have recently graduated from <a href="https://www.imperial.ac.uk/">Imperial College London</a> with a first honour in MSci mathematics (with a Year Abroad). 
                 I have previously participated in an exchange program at <a href="https://web.mit.edu/">Massachusetts Institute of Technology (MIT)</a>. 
                 I am looking forward to participating the <a href="https://www.randomsystems-cdt.ac.uk/">CDT Mathematics of Random Systems</a> (jointly by <a href="https://www.ox.ac.uk/">University of 
                 Oxford</a> and <a href="https://www.imperial.ac.uk/">Imperial College London</a>) upon graduation.
+              </b></p>
+              <p><b> Please visit my <a href="https://samuel-chlam.github.io/graduation/">graduation page</a> for further information.
               </b></p>
               <p> I am an applied mathematician working at the intersection of analysis and statistics. In particular, I study how tools in 
                 analysis lead to theories of statistics and machine learning. Click <Link to="/research">here</Link> for more information.</p>

@@ -1,4 +1,4 @@
-/* Trigger value - 1225px */
+/* Trigger value - 1320px */
 
 .navbar-container {
     background-color: black;
@@ -57,7 +57,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1225px) {
+@media screen and (max-width: 1320px) {
   .navbar-menu {
     display: flex;
     flex-direction: column;
