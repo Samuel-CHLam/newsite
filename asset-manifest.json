@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newsite/static/css/main.d9c1feaf.css",
-    "main.js": "/newsite/static/js/main.bacbdd5d.js",
+    "main.css": "/newsite/static/css/main.d40eb2df.css",
+    "main.js": "/newsite/static/js/main.80a9eaf5.js",
     "static/media/cambodia.jpg": "/newsite/static/media/cambodia.1693197d6334b4222c19.jpg",
     "static/media/rcsu_maths.PNG": "/newsite/static/media/rcsu_maths.2b28feb528fb559537d9.PNG",
     "static/media/scc_railway.PNG": "/newsite/static/media/scc_railway.3a930362c4dc822c9d2e.PNG",
@@ -21,7 +21,6 @@
     "static/media/ECABanner.png": "/newsite/static/media/ECABanner.915997e1726ef8cf3caa.png",
     "static/media/M1R_Poster.pdf": "/newsite/static/media/M1R_Poster.bcb4953f8322184cf2a6.pdf",
     "static/media/18_338_Presentation.pdf": "/newsite/static/media/18_338_Presentation.4884332b1ee4bcee41c6.pdf",
-    "static/media/myStoryBanner.png": "/newsite/static/media/myStoryBanner.cd50a4cccf2e17360cca.png",
     "static/media/18_338_Final_Project.pdf": "/newsite/static/media/18_338_Final_Project.5131292874588e59a7fe.pdf",
     "static/media/ReligionBanner.png": "/newsite/static/media/ReligionBanner.fca874590162891d4d53.png",
     "static/media/UROP_Task_2.pdf": "/newsite/static/media/UROP_Task_2.3fa08bff7cdaa01025f5.pdf",
@@ -52,14 +51,14 @@
     "static/media/githubicon.png": "/newsite/static/media/githubicon.3da0486894b515a5d7d8.png",
     "static/media/MIT-logo-with-spelling-design1-large-black-gray.svg": "/newsite/static/media/MIT-logo-with-spelling-design1-large-black-gray.3e44d6f045eb6fe86148.svg",
     "static/media/MIT-logo-with-spelling-design1-large-red-gray.svg": "/newsite/static/media/MIT-logo-with-spelling-design1-large-red-gray.3644e193685e536c148f.svg",
-    "static/media/Samuel_Lam_Logo_for_black.svg": "/newsite/static/media/Samuel_Lam_Logo_for_black.0152b9f991ceb97e3f735b5a9fd2212d.svg",
+    "static/media/Samuel_Lam_Logo_for_black.svg": "/newsite/static/media/Samuel_Lam_Logo_for_black.c427370d6508833fe16b7d033b0479cd.svg",
     "static/media/MIT-logo-red-gray-72x38.svg": "/newsite/static/media/MIT-logo-red-gray-72x38.87629d1964986f16398a2f779709013a.svg",
     "index.html": "/newsite/index.html",
-    "main.d9c1feaf.css.map": "/newsite/static/css/main.d9c1feaf.css.map",
-    "main.bacbdd5d.js.map": "/newsite/static/js/main.bacbdd5d.js.map"
+    "main.d40eb2df.css.map": "/newsite/static/css/main.d40eb2df.css.map",
+    "main.80a9eaf5.js.map": "/newsite/static/js/main.80a9eaf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9c1feaf.css",
-    "static/js/main.bacbdd5d.js"
+    "static/css/main.d40eb2df.css",
+    "static/js/main.80a9eaf5.js"
   ]
 }
