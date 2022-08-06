@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/newsite/static/css/main.d40eb2df.css",
-    "main.js": "/newsite/static/js/main.80a9eaf5.js",
+    "main.css": "/newsite/static/css/main.c517743d.css",
+    "main.js": "/newsite/static/js/main.1f68f9e1.js",
     "static/media/cambodia.jpg": "/newsite/static/media/cambodia.1693197d6334b4222c19.jpg",
     "static/media/rcsu_maths.PNG": "/newsite/static/media/rcsu_maths.2b28feb528fb559537d9.PNG",
     "static/media/scc_railway.PNG": "/newsite/static/media/scc_railway.3a930362c4dc822c9d2e.PNG",
@@ -11,6 +11,7 @@
     "static/media/Statistics_II.pdf": "/newsite/static/media/Statistics_II.c0853b20ce8999ebd67f.pdf",
     "static/media/18_353_Pilot_Wave_System.pdf": "/newsite/static/media/18_353_Pilot_Wave_System.0c290daeafcc33990570.pdf",
     "static/media/NotFoundBanner.jpg": "/newsite/static/media/NotFoundBanner.0e94cae994fab3b68d0b.jpg",
+    "static/media/M4R_Final_Report.pdf": "/newsite/static/media/M4R_Final_Report.ec6ee8d236788ae46f54.pdf",
     "static/media/M1R_Slides.pdf": "/newsite/static/media/M1R_Slides.bebc19e5241c1489393c.pdf",
     "static/media/PersonalBanner(2).png": "/newsite/static/media/PersonalBanner(2).181ba717b05cd88f0967.png",
     "static/media/6435_project.pdf": "/newsite/static/media/6435_project.ab7c3ee498467aa99992.pdf",
@@ -35,18 +36,14 @@
     "static/media/mern_logo_cut.png": "/newsite/static/media/mern_logo_cut.f8936c4286e05d890324.png",
     "static/media/matlab.png": "/newsite/static/media/matlab.b0ba5ee84db1cc71167b.png",
     "static/media/Phil08.pdf": "/newsite/static/media/Phil08.0405d04d90341f3aa1b9.pdf",
-    "static/media/icpass.png": "/newsite/static/media/icpass.1883c008ce05a5a10de2.png",
     "static/media/Diffusion_Comparison.png": "/newsite/static/media/Diffusion_Comparison.f45e5ad5a3bc8a656369.png",
     "static/media/css.png": "/newsite/static/media/css.4e67641bb68b658d9b2b.png",
     "static/media/Psalm_126.pdf": "/newsite/static/media/Psalm_126.bdc67e7862934922eac7.pdf",
     "static/media/R.png": "/newsite/static/media/R.02794c1c6fffac0582b6.png",
-    "static/media/mcrr.png": "/newsite/static/media/mcrr.9b4d319f846414a52e8d.png",
     "static/media/IMP_ML_K_PS.png": "/newsite/static/media/IMP_ML_K_PS.e8bcd6c9b86c58abaac3.png",
     "static/media/IMP_ML_1CS_4CP.png": "/newsite/static/media/IMP_ML_1CS_4CP.347caf67c3f0fa7683f4.png",
-    "static/media/PredictiveNew.png": "/newsite/static/media/PredictiveNew.d11056e99a5cda3090eb.png",
     "static/media/tracywidom.png": "/newsite/static/media/tracywidom.e4fc65e089274337d244.png",
     "static/media/logosAcademy.jpg": "/newsite/static/media/logosAcademy.1b5e26d8adcb073b0f7d.jpg",
-    "static/media/gabor.png": "/newsite/static/media/gabor.1294ff48d8c639601b02.png",
     "static/media/python.png": "/newsite/static/media/python.1424959027e1b233ad53.png",
     "static/media/githubicon.png": "/newsite/static/media/githubicon.3da0486894b515a5d7d8.png",
     "static/media/MIT-logo-with-spelling-design1-large-black-gray.svg": "/newsite/static/media/MIT-logo-with-spelling-design1-large-black-gray.3e44d6f045eb6fe86148.svg",
@@ -54,11 +51,11 @@
     "static/media/Samuel_Lam_Logo_for_black.svg": "/newsite/static/media/Samuel_Lam_Logo_for_black.c427370d6508833fe16b7d033b0479cd.svg",
     "static/media/MIT-logo-red-gray-72x38.svg": "/newsite/static/media/MIT-logo-red-gray-72x38.87629d1964986f16398a2f779709013a.svg",
     "index.html": "/newsite/index.html",
-    "main.d40eb2df.css.map": "/newsite/static/css/main.d40eb2df.css.map",
-    "main.80a9eaf5.js.map": "/newsite/static/js/main.80a9eaf5.js.map"
+    "main.c517743d.css.map": "/newsite/static/css/main.c517743d.css.map",
+    "main.1f68f9e1.js.map": "/newsite/static/js/main.1f68f9e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d40eb2df.css",
-    "static/js/main.80a9eaf5.js"
+    "static/css/main.c517743d.css",
+    "static/js/main.1f68f9e1.js"
   ]
 }
