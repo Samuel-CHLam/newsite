@@ -85,13 +85,13 @@ function NavBar () {
                 {dropdownCV && <NavBarDropdown menuItems={cvSubpages} />}
             </li>
             
-            <li className="navbar-item"> 
+            {/* <li className="navbar-item"> 
               <a href="https://samuel-chlam.github.io/masterplan-2022/" className="navbar-links" onClick={collapseAfterClick}>
                 Masterplan 2022</a></li>
 
             <li className="navbar-item">
               <a href="https://samuel-chlam.github.io/graduation/" className="navbar-links" onClick={collapseAfterClick}>
-                Graduation Info</a></li>
+                Graduation Info</a></li> */}
           </ul>
       </nav>
     </>
