@@ -32,15 +32,17 @@ class Home extends Component {
         <div className="u-block">
           <div className="home-academic-one">
             <div className="home-flexleft">
-              <p><b> I have recently graduated from <a href="https://www.imperial.ac.uk/">Imperial College London</a> with a first honour in MSci mathematics (with a Year Abroad). 
-                I have previously participated in an exchange program at <a href="https://web.mit.edu/">Massachusetts Institute of Technology (MIT)</a>. 
-                I am looking forward to participating the <a href="https://www.randomsystems-cdt.ac.uk/">CDT Mathematics of Random Systems</a> (jointly by <a href="https://www.ox.ac.uk/">University of 
-                Oxford</a> and <a href="https://www.imperial.ac.uk/">Imperial College London</a>) upon graduation.
-              </b></p>
-              <p><b> Please visit my <a href="https://samuel-chlam.github.io/graduation/">graduation page</a> for further information.
-              </b></p>
-              <p> I am an applied mathematician working at the intersection of analysis and statistics. In particular, I study how tools in 
-                analysis lead to theories of statistics and machine learning. Click <Link to="/research">here</Link> for more information.</p>
+              <p><b>I am a first year DPhil student under the EPSRC <a href="https://www.randomsystems-cdt.ac.uk/">CDT Mathematics of 
+              Random System</a>, jointly offered by the University of Oxford and Imperial College London. Prior to my DPhil studies, 
+              I was reading Mathematics as an undergraduate at&nbsp;<a href="https://www.imperial.ac.uk/">Imperial College London</a>, 
+              spending a year abroad at the <a href="https://web.mit.edu/">Massachusetts Institute of Technology (MIT)</a>.</b></p>
+              <p>I am an applied mathematician working at the intersection of analysis and statistics. In particular, I study how 
+                tools in analysis lead to theories of statistics and machine learning. In my spare time, I also work on random 
+                matrix theory and mathematical education. Click <Link to="/research">here</Link> for more information.</p>
+              <p>I am also one of the cofounder of the <a href="http://imperialmathswiki.com">Imperial College MathWiki</a>, a 
+              central repository for resources written by lecturers and students for courses offered at Imperial College. This is 
+              part of a greater <a href="http://imperialwiki.com">Imperial Wiki Project</a> to foster cross-departmental 
+              student-led initiatives in education and research.</p>
             </div>
             <div className="home-flexright">
               <Image src={randomWalk} 
@@ -49,22 +51,22 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="u-block">
-          {/* <p>
+        {/* <div className="u-block">
+          <p>
             In addition to my research, I am creating resources to enhance undergraduates' experiences
             in learning computational mathematics and statistics. These include a book on multivariate analysis with
             demonstration in Julia language, and a repository of numerical methods. I am also a peer
             tutor at Imperial College helping current freshmen (first-year undergraudates) to adopt
             university life in a rapidly-changing Covid-19 situation.
-            </p> */}
+            </p> 
           <p>
             My personal journey in mathematics began when I entered the HKCCCU Logos Academy (a comprehensive
             school in Hong Kong). I had participated various enrichment programs offered by the Hong Kong University
             of Science and Technology (HKUST) from Grade 8 to Grade 11. I then completed GCE A-Level and joined Imperial 
             College London at the age of 16.
           </p>
-          {/* <p> <Link to="/mystory"> Click here to read my stories. </Link> </p> */}
-          </div>
+          <p> <Link to="/mystory"> Click here to read my stories. </Link> </p>
+          </div>*/}
         <div className="u-block">
           <h2> Outside academia... </h2>
           <p>
