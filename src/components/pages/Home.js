@@ -32,13 +32,13 @@ class Home extends Component {
         <div className="u-block">
           <div className="home-academic-one">
             <div className="home-flexleft">
-              <p><b>I am a first year DPhil student under the EPSRC <a href="https://www.randomsystems-cdt.ac.uk/">CDT Mathematics of 
+              <p><b>I am a first year student at the <a href="https://www.univ.ox.ac.uk">University College, Oxford</a>, reading DPhil 
+              in Mathematics under the EPSRC <a href="https://www.randomsystems-cdt.ac.uk/">CDT Mathematics of 
               Random System</a>, jointly offered by the University of Oxford and Imperial College London. Prior to my DPhil studies, 
-              I was reading Mathematics as an undergraduate at&nbsp;<a href="https://www.imperial.ac.uk/">Imperial College London</a>, 
+              I was reading Mathematics as an undergraduate at <a href="https://www.imperial.ac.uk/">Imperial College London</a>, 
               spending a year abroad at the <a href="https://web.mit.edu/">Massachusetts Institute of Technology (MIT)</a>.</b></p>
-              <p>I am an applied mathematician working at the intersection of analysis and statistics. In particular, I study how 
-                tools in analysis lead to theories of statistics and machine learning. In my spare time, I also work on random 
-                matrix theory and mathematical education. Click <Link to="/research">here</Link> for more information.</p>
+              <p>I am an applied mathematician working at the intersection of stochastic analysis and statistical learning theory. 
+                In my spare time, I also work on random matrix theory and mathematical education. Click <Link to="/research">here</Link> for more information.</p>
               <p>I am also one of the cofounder of the <a href="http://imperialmathswiki.com">Imperial College MathWiki</a>, a 
               central repository for resources written by lecturers and students for courses offered at Imperial College. This is 
               part of a greater <a href="http://imperialwiki.com">Imperial Wiki Project</a> to foster cross-departmental 
@@ -70,7 +70,7 @@ class Home extends Component {
         <div className="u-block">
           <h2> Outside academia... </h2>
           <p>
-            I engage in a lot of things outside mathematics! I develop website, play a bit of music and bike around London. 
+            I engage in a lot of things outside mathematics! I develop website, play a bit of music and bike around Oxford and London. 
             As a christian, I am also interested in reading about my faith.
           </p>
           <p> <Link to="/christian"> Click here for my engagement as a christian. </Link> </p>
