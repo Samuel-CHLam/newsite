@@ -3,7 +3,7 @@ import {HashRouter as Router, Redirect, Route, Switch} from "react-router-dom";
 import NavBar from "./modules/NavBar.js";
 import BottomBanner from "./modules/BottomBanner.js";
 
-import NotFound from "./pages/NotFound.js";
+// import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
 import Teaching from "./pages/Teaching.js"
 import Achieve from "./pages/Achieve.js"
@@ -20,13 +20,6 @@ import "./App.css";
  * Define the "App" component as a class.
  */
 class App extends Component {
-  // makes props available in this component
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount() {}
-
   render() {
     return (
       <Router>

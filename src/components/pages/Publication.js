@@ -5,7 +5,6 @@ import "./Publication.css";
 import TopBanner from "../modules/TopBanner.js";
 import PublicationBackground from "../../img/PublicationBanner.png";
 
-import Stats from "../../data/Publication/Statistics_II.pdf";
 import M4R from "../../data/Publication/M4R_Final_Report.pdf"
 import TimesClass from "../../data/Publication/15_077_Project.pdf";
 import BCG from "../../data/Publication/6435_project.pdf";
@@ -37,14 +36,12 @@ class Publication extends Component {
           title={(<span className="publication-highlight"> PUBLICATION </span>)}
           content={(<>Here is a list of writings in mathematics. They are mainly Expository
           papers, but I am working towards publishing a book and further resources. </>)}
-          des="Return map of Pilot Wave system - taken from 18.353 final project."
+          des="Image: Return map of Pilot Wave system - taken from 18.353 final project."
         />
         <div className="u-block">
             <h2> Book/Notes </h2>
               <ul>
-                <li> <b>(In progress, notes)</b> A case study of statistical theory - linear regression.</li>
                 <li> <b>(In progress)</b> Probability Theory. (with I. Kirev)</li>
-                <li> <b>(In progress)</b> Theory of Classical Statistics II: Regression and Multivariate Analysis with demonstration in Julia. <a href={Stats}> Chapter 1-3 </a></li>
               </ul>
             <h2> Final Year Project </h2>
               <ul>

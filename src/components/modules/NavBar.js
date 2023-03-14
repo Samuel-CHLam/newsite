@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import {ReactComponent as WhiteLogo} from "../../img/Samuel_Lam_Logo_for_black.svg";
 import NavBarDropdown from "./NavBarDropdown.js";
-import ResumePDF from "../../data/Resume/CV_2022_V1.pdf";
+import ResumePDF from "../../data/Resume/CV_2022_V2.pdf";
 
 import "../../utilities.css";
 import "./NavBar.css";
@@ -10,7 +10,6 @@ import "./NavBar.css";
 function NavBar () {
 
   const [click, setClick] = useState(false);
-  const [dropdownTeaching, setDropdownTeaching] = useState(false);
   const [dropdownCV, setDropdownCV] = useState(false);
 
   const closeMobileMenu = () => setClick(false);
@@ -24,19 +23,6 @@ function NavBar () {
     closeMobileMenu();
     scrollToTop();
   }
-
-  // Teaching page
-  /* Trigger value - 1240px */
-  const onMouseEnterTeaching = () => {
-    if (window.innerwidth < 1240) {setDropdownTeaching(false)} else {setDropdownTeaching(true)};
-  };
-
-  const onMouseLeaveTeaching = () => {setDropdownTeaching(false)};
-
-  const teachingSubpages = [
-    {title: "Teaching Pages", localpath: true, path: "/teaching"},
-    {title: "Resources", localpath: true, path: ""},
-  ]
 
   // CV page
   const onMouseEnterCV = () => {
@@ -64,12 +50,11 @@ function NavBar () {
 
           <ul className={click ? "navbar-menu active" : "navbar-menu"}>
             <li className="navbar-item" onClick={collapseAfterClick}> 
-              <Link to="/research" className="navbar-links" >Research</Link>
+              <Link to="/research" className="navbar-links">Research</Link>
             </li>
 
-            <li className="navbar-item" onMouseEnter={onMouseEnterTeaching} onMouseLeave={onMouseLeaveTeaching}> 
-              <Link to="/teaching" className="navbar-links" >Teaching <i className="fas fa-caret-down"/> </Link>
-              {dropdownTeaching && <NavBarDropdown menuItems={teachingSubpages}/>}
+            <li className="navbar-item" onClick={collapseAfterClick}> 
+              <Link to="/teaching" className="navbar-links">Academic Outreach</Link>
             </li>
 
             <li className="navbar-item"> 

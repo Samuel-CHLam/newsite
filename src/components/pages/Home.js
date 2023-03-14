@@ -5,8 +5,8 @@ import "./Home.css";
 
 import { Link } from "react-router-dom";
 import TopBanner from "../modules/TopBanner.js";
-import HomeBackground from "../../img/PersonalBanner(2).png";
-import randomWalk from "../../img/homerandom.png";
+import HomeBackground from "../../img/andrew_wiles_building.jpg";
+import randomWalk from "../../img/Grey_background.jpg";
 import Image from "../modules/Image.js";
 
 class Home extends Component {
@@ -26,17 +26,20 @@ class Home extends Component {
           background={HomeBackground}
           // title="CHUN HEI SAMUEL LAM"
           title={(<> CHUN HEI <span className="home-banner-highlight"> SAMUEL </span> LAM </>)}
-          content="Aspiring applied mathematician."
-          des="Taken at the main entrance of Imperial College London. Credit to Daniel Lo."
+          content="An aspiring statistical learning theorist."
+          des={(<>- Image: <a href="https://www.flickr.com/photos/11569642@N00/19924266231">July 21st, 2015 Oxford University Mathematical Institute, Andrew Wiles Building</a> by <a href="https://www.flickr.com/photos/11569642@N00">karenblakeman</a> is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse">CC0 1.0</a>.</>)}
+          opacity_left={0.7}
+          opacity_right={0.7}
         />
         <div className="u-block">
           <div className="home-academic-one">
             <div className="home-flexleft">
-              <p><b>I am a first year student at the <a href="https://www.univ.ox.ac.uk">University College, Oxford</a>, reading DPhil 
+              <h1>About me</h1>
+              <p>I am a first year student at the <a href="https://www.univ.ox.ac.uk">University College, Oxford</a>, reading DPhil 
               in Mathematics under the EPSRC <a href="https://www.randomsystems-cdt.ac.uk/">CDT Mathematics of 
               Random System</a>, jointly offered by the University of Oxford and Imperial College London. Prior to my DPhil studies, 
               I was reading Mathematics as an undergraduate at <a href="https://www.imperial.ac.uk/">Imperial College London</a>, 
-              spending a year abroad at the <a href="https://web.mit.edu/">Massachusetts Institute of Technology (MIT)</a>.</b></p>
+              spending a year abroad at the <a href="https://web.mit.edu/">Massachusetts Institute of Technology (MIT)</a>.</p>
               <p>I am an applied mathematician working at the intersection of stochastic analysis and statistical learning theory. 
                 In my spare time, I also work on random matrix theory and mathematical education. Click <Link to="/research">here</Link> for more information.</p>
               <p>I am also one of the cofounder of the <a href="http://imperialmathswiki.com">Imperial College MathWiki</a>, a 
@@ -45,30 +48,12 @@ class Home extends Component {
               student-led initiatives in education and research.</p>
             </div>
             <div className="home-flexright">
-              <Image src={randomWalk} 
-              des="A trajectory simulated by a chaotic process, which
-              resembles random walk." />
+              <Image src={randomWalk} maxWidth={720} />
             </div>
           </div>
         </div>
-        {/* <div className="u-block">
-          <p>
-            In addition to my research, I am creating resources to enhance undergraduates' experiences
-            in learning computational mathematics and statistics. These include a book on multivariate analysis with
-            demonstration in Julia language, and a repository of numerical methods. I am also a peer
-            tutor at Imperial College helping current freshmen (first-year undergraudates) to adopt
-            university life in a rapidly-changing Covid-19 situation.
-            </p> 
-          <p>
-            My personal journey in mathematics began when I entered the HKCCCU Logos Academy (a comprehensive
-            school in Hong Kong). I had participated various enrichment programs offered by the Hong Kong University
-            of Science and Technology (HKUST) from Grade 8 to Grade 11. I then completed GCE A-Level and joined Imperial 
-            College London at the age of 16.
-          </p>
-          <p> <Link to="/mystory"> Click here to read my stories. </Link> </p>
-          </div>*/}
         <div className="u-block">
-          <h2> Outside academia... </h2>
+          <h1> Outside academia... </h1>
           <p>
             I engage in a lot of things outside mathematics! I develop website, play a bit of music and bike around Oxford and London. 
             As a christian, I am also interested in reading about my faith.

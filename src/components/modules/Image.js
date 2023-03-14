@@ -10,8 +10,8 @@ class Image extends Component {
     render() {
       return (
         <>
-            <img src={this.props.src} className="image"/>
-            <p className="image-des"> &#9654; {this.props.des} </p>
+            <img src={this.props.src} className="image" style={{maxWidth: this.props.maxWidth || "default"}} alt={this.props.des}/>
+            { this.props.des ? (<p className="image-des"> &#9654; {this.props.des} </p>) : (<> </>)}
         </>
       )
     }

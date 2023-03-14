@@ -28,11 +28,11 @@ class TopBanner extends Component {
     return (
       <>
         <div className="topbanner" style={{
-            backgroundImage: `url("${this.props.background}")`}}>
+            backgroundImage: `linear-gradient(rgba(0,0,0,${this.props.opacity_left || 0}), rgba(0,0,0,${this.props.opacity_right || 0})), 
+            url("${this.props.background}")`}}>
             <div className="topbanner-bodycontainer">
                 <h1 className="topbanner-title"> {this.props.title} </h1>
                 <p className="topbanner-content"> {this.props.content} </p>
-                <p className="topbanner-des"> &#9654; {this.props.des} </p>
             </div>
         </div>
         <div className="topbanner-mobile-des">
@@ -41,6 +41,9 @@ class TopBanner extends Component {
         <div className="u-block topbanner-mobile">
           <h1 className="topbanner-title"> {this.props.title} </h1>
           <p className="topbanner-content"> {this.props.content} </p>
+        </div>
+        <div className="topbanner-des">
+          {this.props.des}
         </div>
       </>
     );

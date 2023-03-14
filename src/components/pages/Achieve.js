@@ -6,10 +6,9 @@ import "./Achieve.css";
 import TopBanner from "../modules/TopBanner.js";
 import ImageFlex from "../modules/ImageFlex.js";
 
-import ResumeBackground from "../../img/ResumeBanner.png";
+import ResumeBackground from "../../img/prize_ceremony.JPG";
 import {EducationList} from "../../data/Resume/Education.js";
-import ResumePDF from "../../data/Resume/CV_2022_V1.pdf";
-import Coding from "../modules/Coding.js";
+import ResumePDF from "../../data/Resume/CV_2022_V2.pdf";
 import CourseList from "../modules/CourseList.js";
 
 class Achieve extends Component {
@@ -29,9 +28,9 @@ class Achieve extends Component {
           background={ResumeBackground}
           title={<> <span className="achieve-highlight">Curriculum Vitae</span> and Achievements </>}
           content={<> This page contains my general background and skills.</>}
-          des="Taken in 2018 during final presentation of Year 1 Research Project.
-          The project aims to predict tumor growth by bayesian computations. A high
-          score of 98% is achieved in this project."
+          des="Taken in October during the Imperial College prize ceremony."
+          opacity_left={.5}
+          opacity_right={.5}
         />
         <div className="u-block">
           <h4> A PDF version of my curriculum vitae can be found <a href={ResumePDF}>here</a>. </h4>

@@ -32,7 +32,7 @@ class ECA extends Component {
           title={<> <span className="ECA-highlight"> Extra-curricular </span> Engagements </>}
           content="Here is a summary of extra-curricular activites I have 
           participated for the last few years"
-          des={<> Taken in 2018 during a rehearsal of <i> Imperial College 
+          des={<>Image: Taken in 2018 during a rehearsal of <i> Imperial College 
             DramSoc</i> production of drama <i> And Then There Were None</i>.
             I was a Deputy Stage Manager in that production. Credit to Daniel Lo.</>}
         />

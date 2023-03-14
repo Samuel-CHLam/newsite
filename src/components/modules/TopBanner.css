@@ -1,5 +1,5 @@
 .topbanner {
-    height: 75vh;
+    height: 88vh;
     width: 100%;    
     display: flex;
     align-items: center;
@@ -34,11 +34,16 @@
 }
 
 .topbanner-des {
-    position: relative;
-    top: 30px;
-    font-size: 14px;
-    font-weight: 250;
+    width: 80%;
+    margin-inline: auto;
+    margin-top: .5rem;
+    padding-inline: auto;
+    font-size: .875rem;
     color: var(--darkgrey);
+}
+
+.topbanner-des > a {
+  color: gray;
 }
 
 .topbanner-mobile {

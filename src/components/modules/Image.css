@@ -6,3 +6,7 @@
     color: gray;
     font-size: 14px;
 }
+
+.image-des > a {
+    color: gray;
+}

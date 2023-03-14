@@ -4,7 +4,6 @@ import "../../utilities.css";
 import "./Christian.css";
 import TopBanner from "../modules/TopBanner.js";
 import ChristianBackground from  "../../img/ReligionBanner.png";
-import MyAlert from "../modules/MyAlert.js";
 
 import Phil01 from "../../data/Christian/Phil01.pdf"
 import Phil08 from "../../data/Christian/Phil08.pdf"
@@ -28,8 +27,8 @@ class Christian extends Component {
           title={(<> THE NEW <span className="Christian-highlight"> LIFE </span></>)}
           content="I am a Christian and I believe our faith changes lives and creates impact in society. I have engages in various churches
           and Christian Unions."
-          des={<> Taken in 2018 April when I baptised at my home church - <i> Oi 
-            Kwan Road Baptist Church</i>. Credit to the members of choir.</>}
+          des={<>Image: My baptism at <i>Oi 
+            Kwan Road Baptist Church</i> on the 1st April, 2018. Credit to the members of choir.</>}
         />
       <div className="u-block">
           <h1> What do we believe? </h1>
@@ -45,17 +44,19 @@ class Christian extends Component {
           <h1> Christian-related engagements </h1>
           <p className="u-nomargin"> I am currently a member of: </p>
           <ul>
-            <li>Oi Kwan Road Baptist Church (OKBC)</li>
-            <li>Cantonese Congregation, Chinese Churches in London (CCiL)</li>
+            <li>Home church: Oi Kwan Road Baptist Church (OKBC)</li>
+            <li>London home church: Cantonese Congregation, Chinese Churches in London (CCiL)</li>
             <li>Imperial College Christian Union (ICCU)</li>
           </ul>
+          <p>In addition, I regularly attend the St. Ebbe's Church, Oxford.</p>
+          <h2>Service in christian community</h2>
           <p className="u-nomargin"> I have been serving in the following committees: </p>
           <ul>
             <li><b>Vice-Chair</b>, committee of Cantonese Youth Fellowship (CYF), CCiL (2021 July - 2022 June)</li>
             <li><b>Secretary</b>, committee of Cantonese Youth Fellowship (CYF), CCiL (2019 July - 2020 June)</li>
             <li>I served as a <b>secretary</b> in numerous committees for summer camps in OKBC</li>
-            <li>In addition to the above administrative works, I regularly serve as a pianist in numerous worship teams.</li>
           </ul>
+          <p>In addition to the above administrative works, I regularly serve as a pianist in numerous worship teams. I am also a chorist (volunteer) in the chapel of University College and numerous festival choirs in churches.</p>
         </div>
         <div className="u-block">
           <h1> Notes </h1>

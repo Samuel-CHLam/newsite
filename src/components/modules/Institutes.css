@@ -1,61 +1,35 @@
 .institutes-container {
     display: flex;
+    flex-direction: row;
 }
 
-.institutes-imperial {
+.institute {
     display: block;
-    background: url("../../img/logo/institutes/IMP_ML_K_PS.png") no-repeat;
-    background-size: cover;
-    width: calc(1504px*0.111);
-    height: calc(394px*0.11);
-    padding: 0;
-    margin: 0;
 }
 
-.institutes-imperial:hover {
-    display: block;
-    background: url("../../img/logo/institutes/IMP_ML_1CS_4CP.png") no-repeat;
-    background-size: cover;
-    width: calc(1504px*0.111);
-    height: calc(394px*0.11);
-    padding: 0;
-    margin: 0;
+.institute + .institute {
+    margin-left: 1rem
 }
 
-.institutes-mit {
-    display: block;
-    background: url("../../img/logo/institutes/MIT-logo-with-spelling-design1-large-black-gray.svg") no-repeat;
-    background-size: cover;
-    width: 184px;
-    height: 43.5px;
-    padding: 0;
-    margin: 0 0 0 1.5rem;
-}
-
-.institutes-mit:hover {
-    display: block;
-    background: url("../../img/logo/institutes/MIT-logo-with-spelling-design1-large-red-gray.svg") no-repeat;
-    background-size: cover;
-    width: 184px;
-    height: 43.5px;
-    padding: 0;
-    margin: 0 0 0 1.5rem;
-}
-
-@media (max-width: 1025px) {
+@media (max-width: 1280px) {
     .institutes-container {
         justify-content: center;
         align-items: center;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     .institutes-container {
         flex-direction: column;
     }
 
-    .institutes-mit {
+    .institutes-imperial {
         margin-inline: auto;
+        margin-top: 1rem;
+    }
+
+    .institute + .institute {
+        margin-left: 0;
         margin-top: 1rem;
     }
 }
