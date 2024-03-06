@@ -35,13 +35,14 @@ class Home extends Component {
           <div className="home-academic-one">
             <div className="home-flexleft">
               <h1>About me</h1>
-              <p>I am a first year student at the <a href="https://www.univ.ox.ac.uk">University College, Oxford</a>, reading DPhil 
-              in Mathematics under the EPSRC <a href="https://www.randomsystems-cdt.ac.uk/">CDT Mathematics of 
-              Random System</a>, jointly offered by the University of Oxford and Imperial College London. Prior to my DPhil studies, 
-              I was reading Mathematics as an undergraduate at <a href="https://www.imperial.ac.uk/">Imperial College London</a>, 
-              spending a year abroad at the <a href="https://web.mit.edu/">Massachusetts Institute of Technology (MIT)</a>.</p>
-              <p>I am an applied mathematician working at the intersection of stochastic analysis and statistical learning theory. 
-                In my spare time, I also work on random matrix theory and mathematical education. Click <Link to="/research">here</Link> for more information.</p>
+              <ul>
+                <li>DPhil Mathematics student at the <a href="https://www.univ.ox.ac.uk">University College, Oxford</a>.</li>
+                <li>Supervised by Prof. Justin Sirignano.</li>
+                <li>Member of the <a href="https://www.randomsystems-cdt.ac.uk/">CDT Mathematics of 
+              Random System</a>, a collaboration between the University of Oxford and the Imperial College London.</li>
+                <li>Studentship supported by an Oxford-Radcliffe scholarship (jointly offered by the EPSRC and University College, Oxford).</li>
+              </ul>
+              <p>Previously, I did a MSci at <a href="https://www.imperial.ac.uk/">Imperial College London</a>, with my third year spent at spending a year abroad at <a href="https://web.mit.edu/">MIT</a>.</p>
               <p>I am also one of the cofounder of the <a href="http://imperialmathswiki.com">Imperial College MathWiki</a>, a 
               central repository for resources written by lecturers and students for courses offered at Imperial College. This is 
               part of a greater <a href="http://imperialwiki.com">Imperial Wiki Project</a> to foster cross-departmental 
@@ -51,6 +52,11 @@ class Home extends Component {
               <Image src={randomWalk} maxWidth={720} />
             </div>
           </div>
+        </div>
+        <div className="u-block">
+          <h1> Research </h1>
+          <p>My research area is, broadly speaking, theories of deep learning. In particular, I work on the asymptotic limits of neural 
+                networks (kernel limit and mean-field limit), and how they lead to stability and convergence results. I am also involved in mathematical pedagogy and outreach in my spare time.</p>
         </div>
         <div className="u-block">
           <h1> Outside academia... </h1>
