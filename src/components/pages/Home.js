@@ -26,7 +26,7 @@ class Home extends Component {
           background={HomeBackground}
           // title="CHUN HEI SAMUEL LAM"
           title={(<> CHUN HEI <span className="home-banner-highlight"> SAMUEL </span> LAM </>)}
-          content="An aspiring statistical learning theorist."
+          content="Aspiring deep learning theorist."
           des={(<>- Image: <a href="https://www.flickr.com/photos/11569642@N00/19924266231">July 21st, 2015 Oxford University Mathematical Institute, Andrew Wiles Building</a> by <a href="https://www.flickr.com/photos/11569642@N00">karenblakeman</a> is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse">CC0 1.0</a>.</>)}
           opacity_left={0.7}
           opacity_right={0.7}
@@ -42,11 +42,7 @@ class Home extends Component {
               Random System</a>, a collaboration between the University of Oxford and the Imperial College London.</li>
                 <li>Studentship supported by an Oxford-Radcliffe scholarship (jointly offered by the EPSRC and University College, Oxford).</li>
               </ul>
-              <p>Previously, I did a MSci at <a href="https://www.imperial.ac.uk/">Imperial College London</a>, with my third year spent at spending a year abroad at <a href="https://web.mit.edu/">MIT</a>.</p>
-              <p>I am also one of the cofounder of the <a href="http://imperialmathswiki.com">Imperial College MathWiki</a>, a 
-              central repository for resources written by lecturers and students for courses offered at Imperial College. This is 
-              part of a greater <a href="http://imperialwiki.com">Imperial Wiki Project</a> to foster cross-departmental 
-              student-led initiatives in education and research.</p>
+              <p>Previously, I did a MSci at <a href="https://www.imperial.ac.uk/">Imperial College London</a>, with my third year spent at <a href="https://web.mit.edu/">MIT</a>.</p>
             </div>
             <div className="home-flexright">
               <Image src={randomWalk} maxWidth={720} />
@@ -60,6 +56,10 @@ class Home extends Component {
         </div>
         <div className="u-block">
           <h1> Outside academia... </h1>
+          <p>I am also one of the cofounder of the <a href="http://imperialmathswiki.com">Imperial College MathWiki</a>, a 
+              central repository for resources written by lecturers and students for courses offered at Imperial College. This is 
+              part of a greater <a href="http://imperialwiki.com">Imperial Wiki Project</a> to foster cross-departmental 
+              student-led initiatives in education and research.</p>
           <p>
             I engage in a lot of things outside mathematics! I develop website, play a bit of music and bike around Oxford and London. 
             As a christian, I am also interested in reading about my faith.
